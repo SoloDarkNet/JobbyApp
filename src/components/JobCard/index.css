@@ -1,0 +1,97 @@
+* {
+  color: white;
+}
+p {
+  color: #fff;
+}
+.link-item {
+  text-decoration: none;
+}
+.job-item {
+  display: flex;
+  flex-direction: column;
+  background-color: #202020;
+  padding: 25px;
+  border-radius: 15px;
+  margin-bottom: 25px;
+  margin-top: 10px;
+}
+.logo-title-location-container {
+  display: flex;
+  flex-direction: column;
+}
+.logo-title-container {
+  display: flex;
+  align-items: center;
+}
+.company-logo {
+  width: 70px;
+  height: 70px;
+  margin-right: 20px;
+}
+.title-rating-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.location-package-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.location-employee-container {
+  display: flex;
+  flex-direction: row;
+}
+.title-heading {
+  color: white;
+}
+.rating-heading {
+  color: white;
+}
+
+.location-container {
+  color: white;
+}
+.rating-container {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.rating-icon {
+  color: #fbbf24;
+  font-size: 16px;
+  margin-top: 15px;
+}
+.location-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 15px;
+}
+
+.employee-type-container {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  justify-content: space-evenly;
+}
+.location-package-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.hrLine {
+  text-decoration: underline;
+  text-decoration-color: blue;
+  text-decoration-style: wavy;
+}
+.location-employee-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}

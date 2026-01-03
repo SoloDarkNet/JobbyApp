@@ -1,0 +1,46 @@
+.similar-job-item {
+  display: felx;
+  flex-direction: column;
+  list-style-type: none;
+  background-color: #202020;
+  padding: 25px;
+  border-radius: 15px;
+  margin-bottom: 25px;
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .similar-job-item {
+    width: 350px;
+    margin-right: 20px;
+  }
+}
+.logo-title-location-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-rating-container {
+  display: flex;
+  flex-direction: column;
+}
+.location-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: -10px;
+}
+
+.employee-type-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: -10px;
+}
+.locationEmployee {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+.rating-icon {
+  color: rgb(219, 179, 22) !important;
+  font-size: 20px;
+}

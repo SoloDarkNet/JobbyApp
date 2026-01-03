@@ -1,0 +1,17 @@
+.skills-item-container {
+  list-style-type: none;
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  height: 70px;
+  width: 60px;
+  margin-bottom: 40px;
+}
+
+.dis {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
